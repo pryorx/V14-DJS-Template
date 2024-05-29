@@ -1,0 +1,20 @@
+{
+  "name": "djs-v14-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Wow is this a test?\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "ByteN3X",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^2.4.2",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "mongoose": "^7.6.12"
+  }
+}
