@@ -1,7 +1,7 @@
 const { Message } = require('discord.js');
 const ExtendedClient = require('../../../structures/ExtendedClient');
 const config = require('../../../structures/config');
-const GuildSchema = require('../../../strucutres/models/schemas/GuildSchema');
+const GuildSchema = require('../../../structures/models/schemas/GuildSchema');
 
 module.exports = {
     structure: {
