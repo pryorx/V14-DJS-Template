@@ -25,14 +25,6 @@ const ExtendedClient = require('./structures/ExtendedClient');
 const client = new ExtendedClient();
 client.start();
 
-const loadEvents = (dir) => {
-};
-const eventDir = process.argv[2] || process.env.EVENT_DIR || './events';
-
-// Delay loading events by 3 seconds
-setTimeout(() => {
-    loadEvents(eventDir);
-}, 3000); // 3000 milliseconds = 3 seconds
 
 // Handles errors and avoids crashes, better to not remove them.
 process.on('unhandledRejection', console.error);
